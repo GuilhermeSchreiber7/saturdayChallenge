@@ -30,26 +30,4 @@
     const invest = prompt(`Informe como quer investir seu dinheiro (P-poupança; R-renda fixa; F-fundos imobiliários; A-ações):`).toUpperCase();
    let investval = 0;
     
-     
-    
-    while( investval < 3) {
-        switch(invest) {
-        case 'P':
-        money = money*(1+0.03)**12
-        break;
-        case 'R':
-        money = money*(1+0.05)**12
-        break;
-        case 'F':
-        money = money*(1+0.07)**12
-        break;
-        case 'A':
-        money = money*(1+0.10)**12
-        break;
-        default:
-            investval++
-        
-    }
-}
-   alert(`${money}`);
 </script>
